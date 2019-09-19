@@ -37,5 +37,6 @@ const usersController = require('./controllers/usersController.js');
     //下面的路由是业务处理
     //登录按钮请求的接口
     .post('/login',usersController.login)
-
+    //post页面请求数据
+    .post('/post',postsController.post)
     module.exports= router;
